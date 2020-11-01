@@ -6,7 +6,7 @@ YouTube PlayList Downloader
 
 The script will fetch all the public videos from the given playlist and download it in the best possible resolution.
 
-![SecScraper Demo](secscraper.gif)
+![D-FYT Demo](dfyt.gif)
 
 ## Usage
 
