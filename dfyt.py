@@ -1,6 +1,27 @@
 from pytube import YouTube  
 import pytube
 import re
+import terminal_banner, termcolor, platform, datetime
+
+
+banner_text = """
+
+█▀▀▄ ░ ░ █▀▀ █░░█ ▀▀█▀▀
+█░░█ ▀ ▀ █▀▀ █▄▄█ ░░█░░
+▀▀▀░ ░ ░ ▀░░ ▄▄▄█ ░░▀░░
+
+"""
+sub_text = "YouTube Playlist Downloader."
+dev_info = """
+v1.1
+Developed by: Pranav Darwai
+"""
+
+
+banner = terminal_banner.Banner(banner_text)
+print(termcolor.colored(banner.text,'cyan'), end="")
+print(termcolor.colored(sub_text,'white', attrs=['bold']), end = "")
+print(termcolor.colored(dev_info,'yellow'))
 
 
 playlist = pytube.Playlist(input("Enter url : "))
