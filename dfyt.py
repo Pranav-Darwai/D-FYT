@@ -5,7 +5,7 @@ import re
 
 playlist = pytube.Playlist(input("Enter url : "))
 playlist._video_regex = re.compile(r"\"url\":\"(/watch\?v=[\w-]*)")
-print(len(playlist.video_urls))
+#print(len(playlist.video_urls))
 
 
 for video in playlist.video_urls:
