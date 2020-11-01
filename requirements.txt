@@ -1,2 +1,4 @@
 pytube
+python-youtube
+youtube-python
 regex
