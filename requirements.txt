@@ -2,3 +2,5 @@ pytube
 python-youtube
 youtube-python
 regex
+terminal_banner
+termcolor
